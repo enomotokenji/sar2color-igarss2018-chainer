@@ -1,0 +1,9 @@
+Jupyter
+opencv-python==3.4.3.18
+matplotlib==2.2.2
+PyYAML==3.13
+tqdm==4.25.0
+scikit-image==0.14.2
+mpi4py==3.0.0
+cupy-cuda80==5.0.0
+chainer==5.0.0
