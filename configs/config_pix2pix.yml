@@ -5,8 +5,8 @@ iteration_decay_start: 150000
 seed: 0
 display_interval: 100
 progressbar_interval: 100
-snapshot_interval: 200
-evaluation_interval: 200
+snapshot_interval: 20000
+evaluation_interval: 2000
 
 models:
   generator:
@@ -28,8 +28,8 @@ dataset:
   fn: datasets/sar_rgnir.py
   name: paired_sar_rgnir
   args:
-    dir_paired_sar: /projects/g-nedo-geospatial/work/enomoto/data_CloudRemoval/image_data/RGNIRSAR/TRAIN/paired_sar_256
-    dir_paired_rgnir: /projects/g-nedo-geospatial/work/enomoto/data_CloudRemoval/image_data/RGNIRSAR/TRAIN/paired_rgnir_256
+    dir_paired_sar: # set your configuration
+    dir_paired_rgnir: # set your configuration
     imlist_paired_sar: supp_info/paired_sar_256.txt
     imlist_paired_rgnir: supp_info/paired_rgnir_256.txt
     size: 128
