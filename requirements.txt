@@ -1,7 +1,7 @@
 Jupyter
 opencv-python==3.4.3.18
 matplotlib==2.2.2
-PyYAML==3.13
+PyYAML==4.2b4
 tqdm==4.25.0
 scikit-image==0.14.2
 mpi4py==3.0.0
